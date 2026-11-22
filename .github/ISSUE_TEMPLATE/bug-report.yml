@@ -1,0 +1,23 @@
+name: 🐞 Bug report
+description: Something in Conversio itself doesn't work.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what happened instead. Можно по-русски или по-украински.
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac, macOS and Conversio version
+      placeholder: "MacBook Air M2, macOS 15.6, Conversio 0.1"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Help → Wine Logs opens the log folder.

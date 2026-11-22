@@ -1,0 +1,62 @@
+name: 🎮 Game report
+description: Tell us how a game runs in Conversio — working or not.
+title: "[Game] "
+labels: ["game report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Reports like this build the compatibility list for everyone.
+        Можно писать по-русски или по-украински.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Name and, if you know it, the Steam store link.
+      placeholder: "Hollow Tide — https://store.steampowered.com/app/…"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: How does it run?
+      options:
+        - Perfect — plays like on Windows
+        - Playable — small issues
+        - Starts, but not playable
+        - Doesn't start
+    validations:
+      required: true
+  - type: dropdown
+    id: graphics
+    attributes:
+      label: Graphics
+      options:
+        - D3DMetal
+        - DXVK
+        - WineD3D (D3DMetal not imported)
+  - type: dropdown
+    id: launch
+    attributes:
+      label: Launch mode
+      options:
+        - Through Steam
+        - Directly
+  - type: input
+    id: mac
+    attributes:
+      label: Mac and macOS
+      placeholder: "MacBook Pro M3 Pro, macOS 26.1"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Conversio and Wine versions
+      description: Settings → About and Settings → Engine.
+      placeholder: "Conversio 0.1, crossover-23.7.1"
+  - type: textarea
+    id: notes
+    attributes:
+      label: What happens
+      description: Settings you changed, what works, what doesn't. Attach the log from Help → Wine Logs if the game fails.
