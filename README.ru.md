@@ -190,6 +190,10 @@ Conversio бесплатна для скачивания и использова
 
 Conversio опирается на [Wine](https://www.winehq.org) (LGPL), [DXVK](https://github.com/doitsujin/dxvk) (zlib), [MoltenVK](https://github.com/KhronosGroup/MoltenVK) (Apache 2.0), сборки для macOS от [Gcenx](https://github.com/Gcenx) и Game Porting Toolkit от Apple. Steam — товарный знак Valve Corporation. Conversio не связан с Valve, Apple, Microsoft или CodeWeavers. Игры на скриншотах выдуманы.
 
+## Поддержать
+
+Conversio бесплатна. Если она вам помогла, можно [поддержать разработку](https://send.monobank.ua/jar/2jGp4yDQPd) любой картой Visa или Mastercard, Apple Pay или Google Pay.
+
 ## Связь
 
 Новости и поддержка — Telegram [@TheoronApps](https://t.me/TheoronApps) или почта [theoronapps@gmail.com](mailto:theoronapps@gmail.com).

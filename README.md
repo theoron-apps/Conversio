@@ -190,6 +190,10 @@ Conversio is free to download and use. The app's source code is not public; the 
 
 Conversio stands on the shoulders of [Wine](https://www.winehq.org) (LGPL), [DXVK](https://github.com/doitsujin/dxvk) (zlib), [MoltenVK](https://github.com/KhronosGroup/MoltenVK) (Apache 2.0), the macOS builds by [Gcenx](https://github.com/Gcenx), and Apple's Game Porting Toolkit. Steam is a trademark of Valve Corporation. Conversio is not affiliated with Valve, Apple, Microsoft or CodeWeavers. The games on the screenshots are made up.
 
+## Support
+
+Conversio is free. If it helped you, you can [support development](https://send.monobank.ua/jar/2jGp4yDQPd) with any Visa or Mastercard, Apple Pay or Google Pay.
+
 ## Contact
 
 News and support — Telegram [@TheoronApps](https://t.me/TheoronApps) or email [theoronapps@gmail.com](mailto:theoronapps@gmail.com).
